@@ -65,14 +65,16 @@ header nav ul li a:hover{
 #banner {
     background: white;
     height: 200px;
+    width: 100%;
+    margin: auto;
 }
 
 #banner img{
+    object-fit: none;
+    object-position: center;
     height: 200px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0px;
+    width: 100%;
+    overflow: hidden;
 }
 
 /*-----------------CODING FOR THE CONTAINER-------------------*/
@@ -260,22 +262,22 @@ ol.bjqs-markers li a:hover{
 }
 	
 #container .container #team ul {
-	width:100%;
+	width: 100%;
 	margin:0px;
 	float:none;
 }
 	
 #container .content #team ul li {
 	display: inline-block;
-	width: 30%;
+	width: 20%;
 	padding: 50px;
 	float:none;
 	list-style: none;
 }
 
 #container .content #team ul li h2{ 
-	font-size: 23px;
-	line-height: 50px;
+	font-size: 20px;
+	line-height: 30px;
 	font-family: "futura-pt", sans-serif;
 	color: #e5e5e5;
 	text-transform: uppercase;
@@ -289,13 +291,12 @@ ol.bjqs-markers li a:hover{
 	color: #363332;
 	text-transform: none;
 	font-style: italic;
-	padding-bottom: 40px;
+	padding-bottom: 60px;
 }
 
 .img-circle {
     border-radius: 50%;
     overflow: hidden;
-    height: 300px;
-    width: 300px;
-    display: block;
+    height: 230px;
+    width: 200px; 
 }
