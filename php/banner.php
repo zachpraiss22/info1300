@@ -6,6 +6,6 @@ author: Karen Zhou-->
 
 <div id=banner>
     <?php
-        echo "<h1>" . $topic . "</h1>"?>
-    <img src="../img/clock_tower.png" alt="Cornell clock tower by Karen Zhou">
+        echo 
+    <img src="../img/banner.jpg" alt="Cornell clock tower by Karen Zhou">
 </div>

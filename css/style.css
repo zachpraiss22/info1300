@@ -1,158 +1,249 @@
-/*COLORS:
- *#c13838
- *#8c1616
- *#e5e5e5
- *#363332
- *#ceaf8c
- */
 
-body, ul, li {
-  margin: 0;
-  padding: 0;
-}
+/*-------------FONT IMPORT FROM GOOGLE FONTS-----------------*/
+/*----------------------BY ZACH PRAISS-----------------------*/
+
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700);
+
+/*------------------OVERALL WEBSITE CODING-------------------*/
+/*-----------------------BY EVERYONE-------------------------*/
 
 body {
-  background-color: #c13838;
+    background-color: #c13838;
 }
+
+body, ul, li {
+    margin: auto;
+    padding: 0;
+}
+
+/*------------------CODING FOR THE HEADER---------------------*/
+/*-----------------------BY ZACH PRAISS-----------------------*/
 
 header {
-  width: 100%;
-  height: 70px;
-  box-sizing: border-box;
-  background-color: #c13838;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  padding: 0px 0px 0px 0px;
-  z-index: 3;
-}
-
-#logo {
-  float: left;
-  margin: 5px 0px 10px 10px;
-  /* in accordance with University regulation the margins on either side of the
-  logo is greater than 1/4 of a diameter of the logo.*/
-  height:70px;
+    max-width: 850px;
+    margin: auto;
+    height: 90px;
 }
 
 header nav ul {
-  height: 70px;
-  float: left;
-  padding-left:20px;
+    list-style-type: none;
+    text-align: right;
+    padding-top: 61px;
 }
 
 header nav ul li {
-  height: 70px;
-  display: inline-block;
+    font-family: Oswald, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #8c1616;
+    display: inline-block;
+    padding-left: 35px;
 }
 
 header nav ul li a {
-  height: 30px;
-  display: block;
-  padding: 17px 20px;
-  color: #e5e5e5;
-  font-size: 2.2em;
-  text-decoration: none;
-  border-top: 3px solid #e5e5e5;
-  border-bottom: 3px solid #e5e5e5;
-  transition: color 1s ease;
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 header nav ul li a:hover{
-  color: #8c1616;
+    color: #8c1616;
 }
 
-header nav ul li a.active{
-  height: 33px;
-  border-bottom: none;
-  color:#8c1616;
+#logo {
+    float: left;
+    margin: 10px 10px 10px 0px;
+    /* in accordance with University regulation the margins on 
+    either side of the logo is greater than 1/4 of a diameter 
+    of the logo.*/
+    height: 70px;
 }
 
-header nav ul li a.link { 
-  background-color: #c13838; 
+/*------------------CODING FOR THE BANNER---------------------*/
+/*----------------------BY ZACH PRAISS------------------------*/
+
+#banner {
+    background: white;
+    height: 200px;
 }
 
-header nav ul li a.inuse{
-  border-top: #8c1616;
-  border-bottom: #8c1616;
+#banner img{
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
 }
+
+/*-----------------CODING FOR THE CONTAINER-------------------*/
+/*----------------------BY KATIE CRAWFORD---------------------*/
 
 #container{
-  max-width: 90%;
-  display: block;
-  margin: 0 auto;
+    max-width: 850px;
+    margin: auto;
 }
 
-.content {
-  width: 100%;
-  box-sizing: border-box;
-  padding: 20px;
-  overflow: hidden;
-  margin-top: 70px;
+.content h1 {
+    color: #FFFFFF;
+    display: inline;
+    font-family: Oswald, Helvetica, sans-serif;
+    font-weight: 300;
+    line-height: 125px;
+    font-size: 150px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .content h2 {
-  color: #e5e5e5;
-  font-family: Times, sans-serif;
-  font-weight: 300;
-  font-size: 3em;
-  margin: 0px;
+    color: #FFFFFF;
+    display: inline;   
+    font-family: Oswald, Helvetica, sans-serif;
+    font-weight: 300;
+    line-height: 68px;
+    font-size: 80px;
 }
 
+.content h3 {
+    color: #FFFFFF;
+    display: inline;   
+    font-family: Oswald, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+}
 
 .content p {
-  color: #363332;
-  font-family: Times, sans-serif;
-  font-weight: 300;
-  font-size: 1em; 
+    color: #E0E0E0;
+    font-family: 'Libre Baskerville', Garamond, serif;
+    font-weight: 400;
+    font-size: 1.2em; 
 }
 
-.credits {
-    text-align: left;
-    font-size: 10px;
-}
-/*-------Gallery-------*/
+/*-----------------CODING FOR THE SLIDESHOW-------------------*/
+/*----------------------BY DAMI OJO---------------------------*/
+
 #banner-slide{
-	margin-bottom: 60px;
+    margin-bottom: 60px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     position: relative;
 }
 #container .container #container{
-	text-align: center;
-	position: relative; 
-	margin: 0;
-	width: 100%;
+    text-align: center;
+    position: relative; 
+    margin: 0;
+    width: 100%;
 }
-	
+    
 ul.bjqs-controls.v-centered li a{
-	display:block;
-	padding:10px;
-	background:#e5e5e5;
-	color:#363332;
-	text-decoration: none;
+    display:block;
+    padding:10px;
+    background:#e5e5e5;
+    color:#363332;
+    text-decoration: none;
 }
 
 ul.bjqs-controls.v-centered li a:hover{
-	background:#8c1616;
-	color:#e5e5e5;
+    background:#8c1616;
+    color:#e5e5e5;
 }
 
 ol.bjqs-markers li a{
-	padding:5px 10px;
-	background:#e5e5e5;
-	color:#363332;
-	margin:5px;
-	text-decoration: none;
+    padding:5px 10px;
+    background:#e5e5e5;
+    color:#363332;
+    margin:5px;
+    text-decoration: none;
 }
 
 ol.bjqs-markers li.active-marker a,
 ol.bjqs-markers li a:hover{
-	background: #8c1616;
+    background: #8c1616;
 }
 
-/*-------Team.html-------*/
+/*------------------CODING FOR THE FOOTER---------------------*/
+/*----------------------BY ZACH PRAISS------------------------*/
+
+#footer {
+    border: solid white;
+    border-width: 22px 0px 0px 0px;
+    background: #c13838;
+    height: 30px;
+}
+
+#footer nav ul {
+    color: #FFFFFF;
+    font-size: 17px;
+    font-family: Oswald, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    line-height: 31px;
+    text-align: center;
+}
+
+#footer nav ul li {
+    display: inline-block;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+#footer nav ul li a {
+    color: #8c1616;
+    text-decoration: none;
+}
+
+#footer nav ul li a:hover{
+    color: #FFFFFF;
+}
+
+#bottom {
+    background: #8c1616;
+    height: 100px;
+}
+
+#bottom nav ul {
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 17px;
+    font-family: Oswald, Helvetica, sans-serif;  
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    line-height: 30px;
+}
+
+#bottom nav ul li {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#bottom nav ul li a {
+    color: #c13838;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+#bottom nav ul li a:hover{
+    color: #FFFFFF;
+}
+
+#credits {
+    max-width: 850px;
+    margin: auto;
+}
+
+#credits p {
+    text-align: left;
+    font-size: 10px;
+    color: #c13838;
+}
+
+/*----------------CODING FOR THE TEAM PAGE--------------------*/
+/*-----------------------BY DAMI OJO--------------------------*/
+
 #team h1 {
     color: #e5e5e5;
     font-size: 40px;
@@ -160,6 +251,7 @@ ol.bjqs-markers li a:hover{
 #team {
     text-align: center;
 }
+
 #container .container #banner-slide { 
 	text-align: center;
 	position: relative; 
@@ -206,24 +298,4 @@ ol.bjqs-markers li a:hover{
     height: 300px;
     width: 300px;
     display: block;
-}
-
-#banner{
-  background-color: #ceaf8c;
-  width: 98%;
-  height: 200px;
-  margin-top: 100px;
-  padding: 0px 0px 0px 20px;
-}
-#banner h1{
-  font-size: 96pt;
-  color: #c13838;
-  position: absolute;
-  top: 110px;
-}
-#banner img{
-  margin-top: 50px;
-  float: right;
-  margin-right: 50px;
-  vertical-align: baseline;
 }
