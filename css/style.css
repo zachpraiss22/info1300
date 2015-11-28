@@ -65,14 +65,16 @@ header nav ul li a:hover{
 #banner {
     background: white;
     height: 200px;
+    width: 100%;
+    margin: auto;
 }
 
 #banner img{
+    object-fit: none;
+    object-position: center;
     height: 200px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0px;
+    width: 100%;
+    overflow: hidden;
 }
 
 /*-----------------CODING FOR THE CONTAINER-------------------*/
