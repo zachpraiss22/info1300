@@ -300,3 +300,24 @@ ol.bjqs-markers li a:hover{
     height: 230px;
     width: 200px; 
 }
+
+/*----------------CODING FOR THE WHERE PAGE--------------------*/
+/*-----------------------BY DAMI OJO--------------------------*/
+
+#whereinfo {
+    column-count: 2;
+    column-rule: dotted #fff;
+    column-gap: 50px;
+}
+
+#whereinfo h1 {
+    text-align: center;
+    font-family: cursive, serif;
+    font-size: 36px;
+    color: #fff;
+}
+
+#whereinfo p {
+    font-size: 1em;
+    font-family: 'Libre Baskerville', Garamond, serif;
+}
