@@ -304,20 +304,33 @@ ol.bjqs-markers li a:hover{
 /*----------------CODING FOR THE WHERE PAGE--------------------*/
 /*-----------------------BY DAMI OJO--------------------------*/
 
-#whereinfo {
-    column-count: 2;
-    column-rule: dotted #fff;
-    column-gap: 50px;
+.column {
+    width: 33%;
+    float:left;
+    border-left: solid white 1px;
 }
 
-#whereinfo h1 {
+.columntext {
+    padding: 35px;
+}
+
+.column1 {
+    width: 32%;
+    float:left;
+}
+
+.column h1, .column1 h1 {
     text-align: center;
-    font-family: cursive, serif;
-    font-size: 36px;
-    color: #fff;
+    font-family: Oswald, Helvetica, sans-serif;
+    font-weight: 400; 
+    font-size: 25px;
+    color: #FFFFFF;
 }
 
-#whereinfo p {
-    font-size: 1em;
+.column p, .column1 p {
+    color: #E0E0E0;
     font-family: 'Libre Baskerville', Garamond, serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
 }
