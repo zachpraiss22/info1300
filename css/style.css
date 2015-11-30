@@ -315,6 +315,7 @@ ol.bjqs-markers li a:hover{
 }
 
 /*----------------CODING FOR THE WHERE PAGE--------------------*/
+/*-------------------------------------------------------------*/
 
 .column {
     width: 33%;
@@ -348,7 +349,9 @@ ol.bjqs-markers li a:hover{
 }
 
 /*----------------CODING FOR THE FAQS PAGE--------------------*/
+/*------------------------------------------------------------*/
 p.question {
-    font-weight: bolder;
+    color: #505050;
+    font-weight: 700;
     font-size: 25px;
 }
