@@ -15,6 +15,6 @@
     mail("scc2016@gmail.com", $subject ,$msg);
     
     //Notify user
-    backToTable("Your email has been sent!");
+    backToContact("Your email has been sent!");
     
 ?>
