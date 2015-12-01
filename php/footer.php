@@ -19,7 +19,7 @@ footer.php is called on by all the other pages.
             
             foreach ($nav as $key => $value){
                 if($key == $current){
-                    echo "<li><a class='link' id='current' href=" . $value . ">" . $key . "</a></li>";
+                    echo "<li><a class='link' id='currentf' href=" . $value . ">" . $key . "</a></li>";
                 }else{
                     echo "<li><a class='link' href=" . $value . ">" . $key . "</a></li>";
                 }
@@ -43,7 +43,7 @@ footer.php is called on by all the other pages.
             
             foreach ($nav as $key => $value){
                 if($key == $current){
-                    echo "<li><a class='link' id='current' href=" . $value . ">" . $key . "</a></li>";
+                    echo "<li><a class='link' id='currentf1' href=" . $value . ">" . $key . "</a></li>";
                 }else{
                     echo "<li><a class='link' href=" . $value . ">" . $key . "</a></li>";
                 }
