@@ -7,7 +7,7 @@ footer.php is called on by all the other pages.
 <div id="footer">
     <nav>
         <ul>
-            <li>WHO</li>
+            <li><a class="link" href="index.php">WHO</a></li>
             <li><a class="link" href="what.php">WHAT</a></li>
             <li><a class="link" href="when.php">WHEN</a></li>
             <li><a class="link" href="where.php">WHERE</a></li>
