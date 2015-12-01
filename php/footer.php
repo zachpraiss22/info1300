@@ -53,8 +53,8 @@ footer.php is called on by all the other pages.
         ?>
     </nav>
             <div id="credits">
-                <a href="http://www.facebook.com/CornellSCC2016/" target="_blank"><img src="img/facebook.png" alt="Facebook logo" id="media"></a>
-                <a href="http://www.instagram.com/cuseniors16/" target="_blank"><img src="img/instagram.png" alt="Instagram logo" id="media"></a>
+                <a href="http://www.facebook.com/CornellSCC2016/" target="_blank"><img src="../img/facebook.png" alt="Facebook logo" id="media"></a>
+                <a href="http://www.instagram.com/cuseniors16/" target="_blank"><img src="../img/instagram.png" alt="Instagram logo" id="media"></a>
                 <p class="email"><a class="email" href="mailto:seniorclasscampaign@gcornell.edu.com">seniorclasscampaign@cornell.edu</a></p>
                 <p class="credits">
                 Image Source: <a href="http://www.cornellseniorclasscampaign2016.com" target="blank_">cornellseniorclasscampaign2016.com</a>
