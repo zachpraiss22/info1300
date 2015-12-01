@@ -52,8 +52,6 @@
 		<br>
 		<!-- If email has been sent, then $note is echoed-->
 		<div id="status" class="message" <?php if(!@$note){echo 'style="display:none;"';}?>><?php echo @$note;?></div>
-	    
-		<p>Any more questions or concerns? Shoot us an email!</p>
 		<form method="post" onSubmit="return verify()" action='contact_form.php'>
 		    <p class="question">Name:</p><br>
 		    <input type="text" name="name" id="name"><br>
@@ -63,6 +61,7 @@
 		    <textarea name="msg" id="msg" rows="5" cols="40"></textarea><br>
 		    <input type="submit" value="Send Email">
 		</form>
+		<br><br><br>
 	    </div>
         </div>
     
