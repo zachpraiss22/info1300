@@ -12,9 +12,11 @@
 
     
     // send email
-    mail("scc2016@gmail.com", $subject ,$msg);
+    mail("seniorclasscampaign@cornell.edu", $subject ,$msg);
     
+    header('Location: contact.php');
+
     //Notify user
-    backToTable("Your email has been sent!");
+    backToContact("Your email has been sent!");
     
 ?>
