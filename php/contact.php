@@ -42,8 +42,13 @@
 	?>
 
         <div id="container">
+        	<div class="content">
+                <h2>CONTACT US</h2>
+                <h3>WITH ANY QUESTIONS OR CONCERNS</h3>
+                <br><br>
+		</div>
 	    <div id=contact>
--		<p>Any more questions or concerns? Shoot us an email!</p>
+		<p>Any more questions or concerns? Shoot us an email!</p>
 		<br>
 		<!-- If email has been sent, then $note is echoed-->
 		<div id="status" class="message" <?php if(!@$note){echo 'style="display:none;"';}?>><?php echo @$note;?></div>
