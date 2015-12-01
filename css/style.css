@@ -22,6 +22,12 @@ body, ul, li {
 #current{
     color: #8c1616;
 }
+#currentf{
+    color: #fff;
+}
+#currentf1{
+    color: #fff;
+}
 
 header {
     max-width: 850px;
