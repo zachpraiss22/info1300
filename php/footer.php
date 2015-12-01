@@ -32,10 +32,6 @@ footer.php is called on by all the other pages.
 
 <div id="bottom">
     <nav>
-            <li><a class="link" href="faqs.php">OTHER FAQs</a></li>
-            <li><a class="link" href="team.php">OUR TEAM</a></li>
-            <li><a class="link" href="join.php">JOIN US</a></li>
-            <li><a class="link" href="contact.php">CONTACT US</a></li>
         <?php
             echo "<ul>";
             $nav = array(
