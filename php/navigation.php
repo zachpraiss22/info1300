@@ -8,13 +8,28 @@ The top navigation bar
 <header>
     <a href="index.php"><img src="../img/logo.png" alt="Cornell logo" id="logo"></a>
     <nav>
-        <ul>
-            <li><a class="link" href="index.php">WHO</a></li>
-            <li><a class="link" href="what.php">WHAT</a></li>
-            <li><a class="link" href="when.php">WHEN</a></li>
-            <li><a class="link" href="where.php">WHERE</a></li>
-            <li><a class="link" href="why.php">WHY</a></li>
-            <li><a class="link" href="how.php">HOW</a></li>
-        </ul>
+        
+        <?php
+            echo "<ul>";
+            $nav = array(
+                "WHO" => "index.php",
+                "WHAT" => "what.php",
+                "WHEN" => "when.php",
+                "WHERE" => "where.php",
+                "WHY" => "why.php",
+                "HOW" => "how.php"
+            );
+            
+            foreach ($nav as $key => $value){
+                if($key == $current){
+                    echo "<li><a class='link' id='current' href=" . $value . ">" . $key . "</a></li>";
+                }else{
+                    echo "<li><a class='link' href=" . $value . ">" . $key . "</a></li>";
+                }
+                
+            }
+            echo "</ul>";
+        ?>
+        
     </nav>  
 </header>

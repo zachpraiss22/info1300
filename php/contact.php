@@ -49,26 +49,17 @@
                 <h3>WITH ANY QUESTIONS OR CONCERNS</h3>
                 <br><br>
             </div>
-<<<<<<< HEAD
 
 	    <div id="contact">
 			<p>Feel free to shoot us a message and we will get back to you as soon as possible.</p>
 			<br>
 
-=======
-	    <div id="contact">
-			<p>Feel free to shoot us a message and we will get back to you as soon as possible.</p>
-			<br>
->>>>>>> origin/master
 	    <div id=contact>
 		<!-- If email has been sent, then $note is echoed-->
 		<div id="status" class="message" <?php if(!@$note){echo 'style="display:none;"';}?>><?php echo @$note;?></div>
 	    
 		<p>Any more questions or concerns? Shoot us an email!</p>
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/master
 		<form method="post" onSubmit="return verify()" action='contact_form.php'>
 		    <p class="question">Name:</p>
 		    <input type="text" name="name" id="name"><br>
