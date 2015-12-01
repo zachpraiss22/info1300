@@ -49,7 +49,6 @@
 	//Calls on footer.php
 	include('footer.php')
     ?>
-        </div>
 
     </body>
 
