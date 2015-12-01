@@ -12,14 +12,9 @@
 
     
     // send email
-    mail("seniorclasscampaign@cornell.edu", $subject ,$msg);
+    mail("scc2016@gmail.com", $subject ,$msg);
     
-<<<<<<< Updated upstream
-    header('Location: contact.php');
-?>
-=======
     //Notify user
     backToTable("Your email has been sent!");
     
 ?>
->>>>>>> Stashed changes

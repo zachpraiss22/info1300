@@ -46,28 +46,25 @@
                 <h2>CONTACT US</h2>
                 <h3>WITH ANY QUESTIONS OR CONCERNS</h3>
                 <br><br>
+                <p>The Senior Class Campaign (SCC) is an annual fundraising campaign organized by the graduating senior class of Cornell University to celebrate our school spirit, enhance the ties that bind us together as a community, and give up back to the insititution.</p>
+                <br>
+                <p>The Senior Class Campaign (SCC) is an annual fundraising campaign organized by the graduating senior class of Cornell University to celebrate our school spirit, enhance the ties that bind us together as a community, and give up back to the insititution.</p>
+                <br><br>
             </div>
-<<<<<<< Updated upstream
-	    <div id="contact">
-			<p>Feel free to shoot us a message and we will get back to you as soon as possible.</p>
-			<br>
-=======
 	    <div id=contact>
 		<!-- If email has been sent, then $note is echoed-->
 		<div id="status" class="message" <?php if(!@$note){echo 'style="display:none;"';}?>><?php echo @$note;?></div>
 	    
 		<p>Any more questions or concerns? Shoot us an email!</p>
->>>>>>> Stashed changes
 		<form method="post" onSubmit="return verify()" action='contact_form.php'>
-		    <p class="question">Name:</p>
+		    Name:<br>
 		    <input type="text" name="name" id="name"><br>
-		    <p class="question">Subject:</p>
+		    Subject:<br>
 		    <input type="text" name="subject" id="subject"><br>
-		    <p class="question">Message:</p>
+		    Message:<br>
 		    <textarea name="msg" id="msg" rows="5" cols="40"></textarea><br>
 		    <input type="submit" value="Send Email">
 		</form>
-	    <br><br><br>
 	    </div>
         </div>
     
