@@ -19,6 +19,9 @@ body, ul, li {
 
 /*------------------CODING FOR THE HEADER---------------------*/
 /*-----------------------BY ZACH PRAISS-----------------------*/
+#current{
+    color: #8c1616;
+}
 
 header {
     max-width: 850px;
@@ -44,6 +47,7 @@ header nav ul li {
 header nav ul li a {
     text-decoration: none;
     color: #FFFFFF;
+    text-transform: uppercase;
 }
 
 header nav ul li a:hover{
