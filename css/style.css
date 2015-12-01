@@ -58,6 +58,9 @@ header nav ul li a:hover{
     of the logo.*/
     height: 70px;
 }
+#currentpage{
+	color: #8c1616;
+}
 
 /*------------------CODING FOR THE BANNER---------------------*/
 /*----------------------BY ZACH PRAISS------------------------*/
