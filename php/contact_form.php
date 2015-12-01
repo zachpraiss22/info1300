@@ -7,7 +7,7 @@
     $msg = wordwrap($msg,70);
 
     // send email
-    mail("scc2016@gmail.com", $subject ,$msg);
+    mail("seniorclasscampaign@cornell.edu", $subject ,$msg);
     
     header('Location: contact.php');
 ?>
