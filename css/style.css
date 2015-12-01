@@ -122,14 +122,17 @@ header nav ul li a:hover{
     font-weight: 400;
     font-size: 1.2em; 
 }
+
 .content a{
     text-decoration: none;
     color:#ffffff;
     font-weight: 700;
 }
+
 .content a:hover{
    color: #8c1616;
 }
+
 .question{
     color: #E0E0E0;
     font-family: 'Libre Baskerville', Garamond, serif;
@@ -299,6 +302,23 @@ ol.bjqs-markers li a:hover{
     display: block;
     text-align: center;
     margin: auto;
+}
+/*-----------------CODING FOR THE SLIDESHOW-------------------*/
+/*----------------------BY ZACH PRAISS------------------------*/
+
+#contact p {
+    color: #E0E0E0;
+    font-family: 'Libre Baskerville', Garamond, serif;
+    font-weight: 400;
+    font-size: 1.2em; 
+}
+
+#contact p.question {
+    color: #E0E0E0;
+    font-family: 'Libre Baskerville', Garamond, serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.0em; 
 }
 
 /*----------------CODING FOR THE TEAM PAGE--------------------*/
