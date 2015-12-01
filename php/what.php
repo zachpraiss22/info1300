@@ -13,20 +13,18 @@
 
         <div id="container">
             <div class="content">
-                <h1>WHO</h1>
-                <h3>IS THE CORNELL CLASS OF 2016?</h3>
+                <h1>WHAT</h1>
+                <h3>IS THE SENIOR CLASS CAMPAIGN?</h3>
                 <br><br>
-                <p>Hailing from all over the United States and from 46 different countries from across the world, the Class of 2016 came into Cornell as one of the most diverse and talented classes in the university&#8217;s history.</p>
+                <p>The Senior Class Campaign (SCC) is an annual fundraising campaign organized by the graduating senior class of Cornell University to celebrate our school spirit, enhance the ties that bind us together as a community, and give up back to the insititution.</p>
                 <br>
-                <p>In the past four years, we&#8217;ve come together as a class and as a community in calling this place our home. From academics to athletics to extracurriculars, it&#8217;s an understatement to say we&#8217;ve come so far.</p>
+                <p>This is our chance as the Class of 2016 to celebrate and commemorate the experiences, memories, and friendships we&#8217;ve made in our time here at Cornell.</p>
                 <br><br>
             </div>
-	    
 	    <!-- Calls on slideshow.php for images -->
 	    <?php
 	        include('slideshow.php');
 	    ?>
-
             <script type="text/javascript">
                 jQuery(document).ready(function($) {
         
