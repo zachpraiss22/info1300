@@ -6,25 +6,55 @@ footer.php is called on by all the other pages.
 
 <div id="footer">
     <nav>
-        <ul>
-            <li>WHO</li>
-            <li><a class="link" href="what.php">WHAT</a></li>
-            <li><a class="link" href="when.php">WHEN</a></li>
-            <li><a class="link" href="where.php">WHERE</a></li>
-            <li><a class="link" href="why.php">WHY</a></li>
-            <li><a class="link" href="how.php">HOW</a></li>
-        </ul>
+        <?php
+            echo "<ul>";
+            $nav = array(
+                "WHO" => "index.php",
+                "WHAT" => "what.php",
+                "WHEN" => "when.php",
+                "WHERE" => "where.php",
+                "WHY" => "why.php",
+                "HOW" => "how.php",
+            );
+            
+            foreach ($nav as $key => $value){
+                if($key == $current){
+                    echo "<li><a class='link' id='current' href=" . $value . ">" . $key . "</a></li>";
+                }else{
+                    echo "<li><a class='link' href=" . $value . ">" . $key . "</a></li>";
+                }
+                
+            }
+            echo "</ul>";
+        ?>
     </nav>
 </div>
 
 <div id="bottom">
     <nav>
-        <ul>
             <li><a class="link" href="faqs.php">OTHER FAQs</a></li>
             <li><a class="link" href="team.php">OUR TEAM</a></li>
             <li><a class="link" href="join.php">JOIN US</a></li>
             <li><a class="link" href="contact.php">CONTACT US</a></li>
-        </ul>
+        <?php
+            echo "<ul>";
+            $nav = array(
+                "OTHER FAQs" => "faqs.php",
+                "OUR TEAM" => "team.php",
+                "JOIN US" => "join.php",
+                "CONTACT US" => "contact.php"
+            );
+            
+            foreach ($nav as $key => $value){
+                if($key == $current){
+                    echo "<li><a class='link' id='current' href=" . $value . ">" . $key . "</a></li>";
+                }else{
+                    echo "<li><a class='link' href=" . $value . ">" . $key . "</a></li>";
+                }
+                
+            }
+            echo "</ul>";
+        ?>
     </nav>
     <div id="credits">
         <p>
