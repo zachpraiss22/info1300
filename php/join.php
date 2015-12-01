@@ -7,6 +7,7 @@
 	<?php
 	//NAVIGATION: calls on navigation.php
 	//Calls on banner.php
+	    $current = "JOIN US";
 	    include('navigation.php');
 	    include('banner.php');
 	?>
@@ -20,7 +21,7 @@
                 <br>
                 <p>There are different levels of membership from Ambassadors to the Executive board but all members gain experience, skills, and a network of peers and alumni that are invaluable after gradaution.</p>
                 <br>
-                <p>You can get involved by filling out an <a href="https://docs.google.com/forms/d/1bVn55wsLyAycp0ctswl9Zd2zKkW6IRqvRaVZT8fktTM/viewform">online application</a> and sending your resume to Cory Earle at <a href="mailto:cre8@cornell.edu">cre8&#64;cornell.edu</a>.</p>
+                <p>You can get involved by filling out an <a href="https://docs.google.com/forms/d/1bVn55wsLyAycp0ctswl9Zd2zKkW6IRqvRaVZT8fktTM/viewform">online application</a> and sending your resume to Cory Earle at cre8&#64;cornell.edu </p>
                 <br><br>
             </div>
         </div>

@@ -1,7 +1,4 @@
 <?php
-    //start session
-    session_start();
-    
     //Function to send user back to contact.php with notification
     function backToContact($note){
         $_SESSION['note']= $note;
@@ -15,9 +12,9 @@
 
     
     // send email
-    mail("seniorclasscampaign@cornell.edu", $subject ,$msg);
-
+    mail("scc2016@gmail.com", $subject ,$msg);
+    
     //Notify user
-    backToContact("Your email has been sent!");
+    backToTable("Your email has been sent!");
     
 ?>

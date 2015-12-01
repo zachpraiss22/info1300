@@ -7,6 +7,7 @@
 	<?php
 	//NAVIGATION: calls on navigation.php
 	//Calls on banner.php
+	    $current = "WHO";
 	    include('navigation.php');
 	    include('banner.php');
 	?>
