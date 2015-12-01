@@ -1,11 +1,9 @@
-<!-- banner.php. A uniform banner to show on all pages.
-Called upon by index.php, story.php, team.php, and
-give.php
-
-author: Karen Zhou-->
-
-<div id=banner>
-    <?php
-        echo 
-    <img src="../img/banner.jpg" alt="Cornell clock tower by Karen Zhou">
+<!--
+Author: Karen Zhou
+Date last modified: Nov. 30, 2015
+banner.php is called on by all pages
+The banner. 
+-->
+<div id="banner">
+    <img src="../img/banner.jpg" alt="banner">
 </div>

@@ -1,95 +1,120 @@
 <?php
-  $title = "Senior Class Campaign Team";
-  include('header.php');
+    //Calls on header.php for <head> tags
+    include('header.php');
 ?>
-    <body>
 
-  <?php
-    include('navigation.php');
-  ?>
-            <?php
-                $topic = "TEAM";
-                include('banner.php');
-            ?>
+    <body>
+	<?php
+	//NAVIGATION: calls on navigation.php
+	//Calls on banner.php
+	    include('navigation.php');
+	    include('banner.php');
+	?>
 
         <div id="container">
-          <div class="content">
-                <h2>Meet the team</h2>
-                <p>Coming from all parts of campus, the Senior Class Campaign
-                is run by a diverse, dedicated, and hard working group of
-                seniors. Our general body is always growing, so feel free
-                to join the team. We would love to have you on board.
+            <div class="content">
+                <h2>OUR TEAM</h2>
+                <h3>FOR THE CAMPAIGN</h3>
+                <br><br>
+                <p>The Senior Class Campaign (SCC) is an annual fundraising campaign organized by the graduating senior class of Cornell University to celebrate our school spirit, enhance the ties that bind us together as a community, and give up back to the insititution.</p>
                 <br>
-                <br>
+                <p>The Senior Class Campaign (SCC) is an annual fundraising campaign organized by the graduating senior class of Cornell University to celebrate our school spirit, enhance the ties that bind us together as a community, and give up back to the insititution.</p>
+                <br><br>
                 <div id="team">
-                    <h1> The E-Board</h1>
-                      <ul>
-                          <li>
-                              <h1>Garrison Lovely</h1>
-                              <h2>Co-President</h2>
-                              <img src="../img/team1.jpg" alt="Garrison Lovely" class="img-circle">
-                          </li>
-                          <li>
-                              <h1>Natalie Rosseau</h1>
-                              <h2>Co-President</h2>
-                              <img src="../img/team2.jpg" alt="Natalie Rosseau" class="img-circle">
-                          </li>
-                          <li>
-                              <h1>Justin Watt</h1>
-                              <h2>VP Events</h2>
-                              <img src="../img/team3.jpg" alt="Justin Watt" class="img-circle">
-                          </li>
-                          <li>
-                              <h1>Catherine McAnney</h1>
-                              <h2>VP Operations</h2>
-                              <img src="../img/team4.jpg" alt="Catherine McAnney" class="img-circle">
-                          </li>
-                          <li>
-                              <h1>Lide Forde</h1>
-                              <h2>VP Outreach</h2>
-                              <img src="../img/team5.jpg" alt="Lide Forde" class="img-circle">
-                          </li>
-                          <li>
-                              <h1>Carolyn Sussman</h1>
-                              <h2>VP Outreach</h2>
-                              <img src="../img/team6.jpg" alt="Garrison Lovely" class="img-circle">
-                          </li>
-                          <li>
-                              <h1>Aditi Bhowmick</h1>
-                              <h2>VP Marketing</h2>
-                              <img src="../img/team7.jpg" alt="Aditi Bhowmick" class="img-circle">
-                          </li>
+                <h1>Our E-Board</h1>
+                    <ul>
+                        <li>
+                          <h2>Garrison Lovely</h2>
+                            <br>
+                          <h3>Co-President</h3>
+                            <br>
+                            <br>
+                            <img src="img/team1.jpg" alt="Garrison Lovely" class="img-circle">
+                        </li>
+                        <li>
+                          <h2>Natalie Rosseau</h2>
+                            <br>
+                          <h3>Co-President</h3>
+                            <br>
+                            <br>
+                          <img src="img/team2.jpg" alt="Natalie Rosseau" class="img-circle">
+                        </li>
+                        <li>
+                          <h2>Justin<br>Watt</h2>
+                            <br>
+                          <h3>VP Events</h3>
+                            <br>
+                            <br>
+                          <img src="img/team3.jpg" alt="Justin Watt" class="img-circle">
+                        </li>
+                        <li>
+                          <h2>Catherine McAnney</h2>
+                            <br>
+                          <h3>VP Operations</h3>
+                            <br>
+                            <br>
+                          <img src="img/team4.jpg" alt="Catherine McAnney" class="img-circle">
+                        </li>
+                        <li>
+                          <h2>Lide<br>Forde</h2>
+                            <br>
+                          <h3>VP Outreach</h3>
+                            <br>
+                            <br>
+                          <img src="img/team5.jpg" alt="Lide Forde" class="img-circle">
+                        </li>
+                        <li>
+                          <h2>Carolyn Sussman</h2>
+                            <br>
+                          <h3>VP Outreach</h3>
+                            <br>
+                            <br>
+                          <img src="img/team6.jpg" alt="Garrison Lovely" class="img-circle">
+                        </li>
+                        <li>
+                          <h2>Aditi Bhowmick</h2>
+                            <br>
+                          <h3>VP Marketing</h3>
+                            <br>
+                            <br>
+                          <img src="img/team7.jpg" alt="Aditi Bhowmick" class="img-circle">
+                        </li>
                       </ul>
                  <h1> Our Advisors</h1>
                     <ul>
                         <li>
-                            <h1>Corey Ryan Earle '07</h1>
-                            <h2>Associate Director,
+                            <h2>Corey Ryan Earle '07</h2>
+                            <br>
+                            <h3>Associate Director,
                             <br>
                             Student & Young Alumni Programs 
-                            </h2>
-                            <img src="../img/advisor1.jpg" alt="Corey Ryan Earle '07" class="img-circle">
+                            </h3>
+                            <br>
+                            <br>
+                            <img src="img/advisor1.jpg" alt="Corey Ryan Earle '07" class="img-circle">
                         </li>
                         <li>
-                            <h1>Amanda Massa</h1>
-                            <h2>Assistant Director,
+                            <h2>Amanda<br>Massa</h2>
+                            <br>
+                            <h3>Assistant Director,
                             <br>
                             Student & Young Alumni Programs 
-                            </h2>
-                            <img src="../img/advisor2.jpg" alt="Amanda Massa" class="img-circle">
+                            </h3>
+                            <br>
+                            <br>
+                            <img src="img/advisor2.jpg" alt="Amanda Massa" class="img-circle">
                         </li>  
                     </ul>
-            </div><!--team-->
-            <br>
-            <p class="credits">
-                Image Source: <a href="http://www.cornellseniorclasscampaign2016.com/#!senior-leaders/yk0sh" target="blank_">cornellseniorclasscampaign2016.com</a>
-                <br>
-                Logo Courtesy of Cornell University</p>
-          </div><!--content-->    
-      </div><!--container-->  
-
-      <footer>
-      </footer> 
+                </div><!--team-->
+            </div><!--content-->
+        </div><!--container-->
+    
+    <?php
+	//Footer nav links and credits
+	//Calls on footer.php
+	include('footer.php')
+    ?>
 
     </body>
+
 </html>
