@@ -8,7 +8,8 @@
 	unset($_SESSION['note']);
     }
 ?>
-    <script>
+    <body>
+            <script>
     function verify() {
 	var name = document.getElementById('name');
 	var msg = document.getElementById('msg');
@@ -31,8 +32,6 @@
 	return true;
     }
     </script>
-
-    <body>
 	<?php
 	//NAVIGATION: calls on navigation.php
 	//Calls on banner.php
