@@ -24,19 +24,19 @@
             </div>
             <div class="column1">
                 <div class="columntext">
-                    <h1>Our Target</h1>
+                    <h1>OUR TARGET</h1>
                     <p class="italics">The Senior Class Campaign will be nothing without the participation of our seniors. We are aiming to have at least a 50% participation from the senior class. Let's come together and show Cornell that we are the best class that has ever stepped foot on this campus.</p>
                 </div>
             </div>
             <div class="column">
                 <div class="columntext">
-                    <h1>Our Goal</h1>
+                    <h1>OUR GOAL</h1>
                     <p class="italics">Because we are the great Class of 2016, we are asking that each senior give $20.16 to the SCC. But, this amount is not set in stone. Whether you decide to give more or less, the most important thing is that you give.</p>
                 </div>
             </div>
             <div class="column">
                 <div class="columntext">
-                    <h1>Where You Come In</h1>
+                    <h1>WHERE YOU COME IN</h1>
                     <p class="italics"> It's never to late to donate. Spread the word about the Senior Class Campaign. Get your friends involved and see the impact that you can make on Cornell.</p>
                 </div>
             </div>
