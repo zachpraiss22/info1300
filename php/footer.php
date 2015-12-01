@@ -64,6 +64,6 @@ footer.php is called on by all the other pages.
                 Logo courtesy of Cornell University 
                 </p>
                 <br>
-                <img src="img/CULogo.png" alt="Cornell logo" id="large_logo">
+                <img src="../img/CULogo.png" alt="Cornell logo" id="large_logo">
             </div>
 </div>
