@@ -1,6 +1,6 @@
 <?php
     //Calls on header.php for <head> tags
-    include('header.php');
+    include('php/header.php');
 ?>
 
     <body>
@@ -8,8 +8,8 @@
 	//NAVIGATION: calls on navigation.php
 	//Calls on banner.php
 	    $current = "WHY";
-	    include('navigation.php');
-	    include('banner.php');
+	    include('php/navigation.php');
+	    include('php/banner.php');
 	?>
 
 
@@ -47,7 +47,7 @@
     <?php
 	//Footer nav links and credits
 	//Calls on footer.php
-	include('footer.php')
+	include('php/footer.php')
     ?>
 
     </body>

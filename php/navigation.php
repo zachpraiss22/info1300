@@ -6,7 +6,7 @@ The top navigation bar
 -->
 
 <header>
-    <a href="index.php"><img src="../img/logo.png" alt="Cornell logo" id="logo"></a>
+    <a href="index.php"><img src="img/logo.png" alt="Cornell logo" id="logo"></a>
     <nav>
         
         <?php

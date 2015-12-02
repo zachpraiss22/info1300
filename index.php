@@ -1,30 +1,33 @@
 <?php
     //Calls on header.php for <head> tags
-    include('header.php');
+    include('php/header.php');
 ?>
 
     <body>
 	<?php
 	//NAVIGATION: calls on navigation.php
 	//Calls on banner.php
-	    $current = "HOW";
-	    include('navigation.php');
-	    include('banner.php');
+	    $current = "WHO";
+	    include('php/navigation.php');
+	    include('php/banner.php');
 	?>
 
         <div id="container">
             <div class="content">
-                <h1>HOW</h1>
-                <h3>CAN I GIVE?</h3>
+                <h1>WHO</h1>
+                <h3>IS THE CORNELL CLASS OF 2016?</h3>
                 <br><br>
-                <p>Giving back through the Senior Class Campaign (SCC) is simple and pain-free. You can choose to donate either through your bursar account or by credit card.</p>
+                <p>Hailing from all over the United States and from 46 different countries from across the world, the Class of 2016 came into Cornell as one of the most diverse and talented classes in the university&#8217;s history.</p>
+                <br>
+                <p>In the past four years, we&#8217;ve come together as a class and as a community in calling this place our home. From academics to athletics to extracurriculars, it&#8217;s an understatement to say we&#8217;ve come so far.</p>
                 <br><br>
             </div>
 	    
 	    <!-- Calls on slideshow.php for images -->
 	    <?php
-	        include('slideshow.php');
+	        include('php/slideshow.php');
 	    ?>
+
             <script type="text/javascript">
                 jQuery(document).ready(function($) {
         
@@ -42,7 +45,7 @@
     <?php
 	//Footer nav links and credits
 	//Calls on footer.php
-	include('footer.php')
+	include('php/footer.php')
     ?>
 
     </body>

@@ -1,6 +1,6 @@
 <?php
     //Calls on header.php for <head> tags
-    include('header.php');
+    include('php/header.php');
 ?>
 
     <body>
@@ -8,8 +8,8 @@
 	//NAVIGATION: calls on navigation.php
 	//Calls on banner.php
 	    $current = "WHEN";
-	    include('navigation.php');
-	    include('banner.php');
+	    include('php/navigation.php');
+	    include('php/banner.php');
 	?>
 
         <div id="container">
@@ -25,7 +25,7 @@
 	    
 	    <!-- Calls on slideshow.php for images -->
 	    <?php
-	        include('slideshow.php');
+	        include('php/slideshow.php');
 	    ?>
 	    
             <script type="text/javascript">
@@ -45,7 +45,7 @@
     <?php
 	//Footer nav links and credits
 	//Calls on footer.php
-	include('footer.php')
+	include('php/footer.php')
     ?>
 
     </body>
