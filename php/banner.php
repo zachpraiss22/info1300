@@ -5,5 +5,5 @@ banner.php is called on by all pages
 The banner. 
 -->
 <div id="banner">
-    <img src="../img/banner.jpg" alt="banner">
+    <img src="img/banner.jpg" alt="banner">
 </div>

@@ -1,14 +1,15 @@
 <?php
     //Calls on header.php for <head> tags
-    include('header.php');
+    include('php/header.php');
 ?>
 
     <body>
 	<?php
 	//NAVIGATION: calls on navigation.php
 	//Calls on banner.php
-	    include('navigation.php');
-	    include('banner.php');
+	    $current = "HOW";
+	    include('php/navigation.php');
+	    include('php/banner.php');
 	?>
 
         <div id="container">
@@ -22,7 +23,7 @@
 	    
 	    <!-- Calls on slideshow.php for images -->
 	    <?php
-	        include('slideshow.php');
+	        include('php/slideshow.php');
 	    ?>
             <script type="text/javascript">
                 jQuery(document).ready(function($) {
@@ -41,7 +42,7 @@
     <?php
 	//Footer nav links and credits
 	//Calls on footer.php
-	include('footer.php')
+	include('php/footer.php')
     ?>
 
     </body>

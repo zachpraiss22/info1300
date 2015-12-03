@@ -19,6 +19,15 @@ body, ul, li {
 
 /*------------------CODING FOR THE HEADER---------------------*/
 /*-----------------------BY ZACH PRAISS-----------------------*/
+#current{
+    color: #8c1616;
+}
+#currentf{
+    color: #fff;
+}
+#currentf1{
+    color: #fff;
+}
 
 header {
     max-width: 850px;
@@ -44,6 +53,7 @@ header nav ul li {
 header nav ul li a {
     text-decoration: none;
     color: #FFFFFF;
+    text-transform: uppercase;
 }
 
 header nav ul li a:hover{
@@ -122,14 +132,17 @@ header nav ul li a:hover{
     font-weight: 400;
     font-size: 1.2em; 
 }
+
 .content a{
     text-decoration: none;
     color:#ffffff;
     font-weight: 700;
 }
+
 .content a:hover{
    color: #8c1616;
 }
+
 .question{
     color: #E0E0E0;
     font-family: 'Libre Baskerville', Garamond, serif;
@@ -284,7 +297,7 @@ ol.bjqs-markers li a:hover{
     text-decoration: none;
 }
 
-#media {
+#credits img.media {
     height: 45px;
     width: 45px;
     padding-left: 15px;
@@ -299,6 +312,23 @@ ol.bjqs-markers li a:hover{
     display: block;
     text-align: center;
     margin: auto;
+}
+/*-----------------CODING FOR THE SLIDESHOW-------------------*/
+/*----------------------BY ZACH PRAISS------------------------*/
+
+#contact p {
+    color: #E0E0E0;
+    font-family: 'Libre Baskerville', Garamond, serif;
+    font-weight: 400;
+    font-size: 1.2em; 
+}
+
+#contact p.question {
+    color: #E0E0E0;
+    font-family: 'Libre Baskerville', Garamond, serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.0em; 
 }
 
 /*----------------CODING FOR THE TEAM PAGE--------------------*/

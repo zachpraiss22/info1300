@@ -1,24 +1,23 @@
 <?php
     //Calls on header.php for <head> tags
-    include('header.php');
+    include('php/header.php');
 ?>
 
     <body>
 	<?php
 	//NAVIGATION: calls on navigation.php
 	//Calls on banner.php
-	    include('navigation.php');
-	    include('banner.php');
+	    $current = "OUR TEAM";
+	    include('php/navigation.php');
+	    include('php/banner.php');
 	?>
 
-        <div id="container">
+<div id="container">
             <div class="content">
                 <h2>OUR TEAM</h2>
                 <h3>FOR THE CAMPAIGN</h3>
                 <br><br>
-                <p>The Senior Class Campaign (SCC) is an annual fundraising campaign organized by the graduating senior class of Cornell University to celebrate our school spirit, enhance the ties that bind us together as a community, and give up back to the insititution.</p>
-                <br>
-                <p>The Senior Class Campaign (SCC) is an annual fundraising campaign organized by the graduating senior class of Cornell University to celebrate our school spirit, enhance the ties that bind us together as a community, and give up back to the insititution.</p>
+                <p>The Senior Class Campaign (SCC) is organized by a hardworking and dedicated group of seniors who are committed to making sure that the Cornell Class of 2016 has the most successful senior class campaign in the university&#8217;s history.</p>
                 <br><br>
                 <div id="team">
                 <h1>Our E-Board</h1>
@@ -112,7 +111,7 @@
     <?php
 	//Footer nav links and credits
 	//Calls on footer.php
-	include('footer.php')
+	include('php/footer.php')
     ?>
 
     </body>
