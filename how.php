@@ -20,7 +20,9 @@
                 <p>Giving back through the Senior Class Campaign (SCC) is simple and pain-free. You can choose to donate either through your bursar account or by credit card.</p>
                 <br><br>
             </div>
-	    
+	    <?php
+            include('php/button.php');
+        ?>
 	    <!-- Calls on slideshow.php for images -->
 	    <?php
 	        include('php/slideshow.php');

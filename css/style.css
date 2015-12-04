@@ -150,6 +150,34 @@ header nav ul li a:hover{
     font-size: 1.6em; 	
 }
 
+#give{
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.button{
+    text-decoration:none; 
+    text-align:center; 
+    padding:11px 32px; 
+    border:none; 
+    border-radius:50px;
+    font:1.4em Oswald, Helvetica, sans-serif;
+    font-weight:bold; 
+    color:#8c1616; 
+    background:#ffffff;  
+  
+}
+
+.button:hover{
+    padding:11px 32px; 
+    border:none; 
+    border-radius: 50px; 
+    font:1.4em Oswald, Helvetica, sans-serif; 
+    font-weight:bold; 
+    color:#8c1616; 
+    background:#e0e0e0;   
+}
+
 /*-----------------CODING FOR THE SLIDESHOW-------------------*/
 /*----------------------BY DAMI OJO---------------------------*/
 

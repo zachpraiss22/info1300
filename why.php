@@ -23,6 +23,9 @@
                 <p>At the same time, there are many questions that should be addressed to help you better understand why this campaign is important and you should take a moment to give back today.</p>
             </div>
             <br>
+            <?php
+                include('php/button.php');
+            ?>
               <div class="column1">
                 <div class="columntext">
                     <h1>BUT I&#8217;VE ALREADY GIVEN ENOUGH</h1>

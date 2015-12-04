@@ -22,6 +22,9 @@
                 <p>This is our chance as the Class of 2016 to celebrate and commemorate the experiences, memories, and friendships we&#8217;ve made in our time here at Cornell.</p>
                 <br><br>
             </div>
+            <?php
+                include('php/button.php');
+            ?>
             <div class="column1">
                 <div class="columntext">
                     <h1>OUR TARGET</h1>

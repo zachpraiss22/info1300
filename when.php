@@ -22,6 +22,9 @@
                 <p>Giving back is a simple way for you to express your gratitude for everything you&#8217;ve gained in your time here at Cornell. Take a moment to give back today.</p>
                 <br><br>
             </div>
+        <?php
+            include('php/button.php');
+        ?>
 	    
 	    <!-- Calls on slideshow.php for images -->
 	    <?php

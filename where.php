@@ -22,6 +22,9 @@
                 <p>The SCC is your opportunity to give back to the university, programs, or clubs that have been formative in your college experience here at Cornell.</p>
             </div>
             <br>
+        <?php
+            include('php/button.php');
+        ?>
          <div class="column1">
                 <div class="columntext">
                     <h1>CORNELL ANNUAL FUND</h1>

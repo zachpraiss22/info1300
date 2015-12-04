@@ -22,7 +22,9 @@
                 <p>In the past four years, we&#8217;ve come together as a class and as a community in calling this place our home. From academics to athletics to extracurriculars, it&#8217;s an understatement to say we&#8217;ve come so far.</p>
                 <br><br>
             </div>
-	    
+	    <?php
+            include('php/button.php');
+        ?>
 	    <!-- Calls on slideshow.php for images -->
 	    <?php
 	        include('php/slideshow.php');
