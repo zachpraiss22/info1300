@@ -342,7 +342,7 @@ ol.bjqs-markers li a:hover{
     margin: auto;
 }
 
-/*-----------------CODING FOR THE SLIDESHOW-------------------*/
+/*-----------------CODING FOR THE CONTACT FORM-------------------*/
 /*----------------------BY ZACH PRAISS------------------------*/
 
 #formparagraph{
@@ -432,14 +432,14 @@ ol.bjqs-markers li a:hover{
 	
 #container .container #team ul {
 	width: 100%;
-	margin:0px;
+	margin:10px;
 	float:none;
 }
 	
 #container .content #team ul li {
 	display: inline-block;
-	width: 20%;
-	padding: 50px;
+	width: 15%;
+	padding: 40px;
 	float:none;
 	list-style: none;
 }
@@ -451,6 +451,7 @@ ol.bjqs-markers li a:hover{
 	color: #e5e5e5;
 	text-transform: uppercase;
 	letter-spacing: 1px;
+    margin-left: 45px;
 }
 
 #container .content #team ul li h3{ 
@@ -460,13 +461,23 @@ ol.bjqs-markers li a:hover{
 	color: #363332;
 	text-transform: none;
 	font-style: italic;
-	padding-bottom: 60px;
+    margin-left: 50px; 
+}
+
+#container .content #team ul li h4{ 
+	font-size: 17px;
+	line-height: 15px;
+	font-family: "garamond-premier-pro", serif;
+	color: #363332;
+	text-transform: none;
+	font-style: italic;
+    margin-left: 40px; 
 }
 
 .img-circle {
-    border-radius: 50%;
+    border-radius: 0%;
     overflow: hidden;
-    height: 230px;
+    height: 220px;
     width: 200px; 
 }
 

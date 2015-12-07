@@ -23,57 +23,71 @@
                 <h1>Our E-Board</h1>
                     <ul>
                         <li>
-                          <h2>Garrison Lovely</h2>
+                            <h2>Garrison</h2>
+                            <h2>&nbsp;&nbsp;Lovely</h2>
                             <br>
-                          <h3>Co-President</h3>
+                            <h3>Co-</h3>
+                            <h3>President</h3>
                             <br>
                             <br>
                             <img src="img/team1.jpg" alt="Garrison Lovely" class="img-circle">
                         </li>
                         <li>
-                          <h2>Natalie Rosseau</h2>
+                            <h2>&nbsp;Natalie</h2> 
+                            <h2>Rosseau</h2>
                             <br>
-                          <h3>Co-President</h3>
+                            <h3>Co-</h3>
+                            <h3>President</h3>
                             <br>
                             <br>
                           <img src="img/team2.jpg" alt="Natalie Rosseau" class="img-circle">
                         </li>
                         <li>
-                          <h2>Justin<br>Watt</h2>
+                            <h2>Justin</h2>
+                            <h2>Watt</h2>
                             <br>
-                          <h3>VP Events</h3>
+                            <h3>&nbsp;VP</h3>
+                            <h3>Events</h3>
                             <br>
                             <br>
                           <img src="img/team3.jpg" alt="Justin Watt" class="img-circle">
                         </li>
                         <li>
-                          <h2>Catherine McAnney</h2>
+                            <h2>Catherine</h2>
+                            <h2>McAnney</h2>
                             <br>
-                          <h3>VP Operations</h3>
+                            <h3>&nbsp;&nbsp;VP</h3>
+                            <h3>Operations</h3>
                             <br>
                             <br>
                           <img src="img/team4.jpg" alt="Catherine McAnney" class="img-circle">
                         </li>
                         <li>
-                          <h2>Lide<br>Forde</h2>
+                            <h2>&nbsp;Lide</h2>
+                            <h2>&nbsp;Forde</h2>
                             <br>
-                          <h3>VP Outreach</h3>
+                            <h3>VP</h3>
+                            <h3>Outreach</h3>
                             <br>
                             <br>
                           <img src="img/team5.jpg" alt="Lide Forde" class="img-circle">
                         </li>
                         <li>
-                          <h2>Carolyn Sussman</h2>
+                            <h2>Carolyn</h2>
+                            <h2>Sussman</h2>
                             <br>
-                          <h3>VP Outreach</h3>
+                            <h3>VP</h3>
+                            <h3>Outreach</h3>
                             <br>
                             <br>
                           <img src="img/team6.jpg" alt="Garrison Lovely" class="img-circle">
                         </li>
                         <li>
-                          <h2>Aditi Bhowmick</h2>
+                            <h2>&nbsp;&nbsp;&nbsp;Aditi</h2>
+                            <h2>Bhowmick</h2>
                             <br>
-                          <h3>VP Marketing</h3>
+                            <h3>VP</h3>
+                            <h3>Marketing</h3>
                             <br>
                             <br>
                           <img src="img/team7.jpg" alt="Aditi Bhowmick" class="img-circle">
@@ -82,25 +96,23 @@
                  <h1> Our Advisors</h1>
                     <ul>
                         <li>
-                            <h2>Corey Ryan Earle '07</h2>
+                            <h2>Corey</h2> 
+                            <h2>Earle'07</h2>
                             <br>
-                            <h3>Associate Director,
-                            <br>
-                            Student & Young Alumni Programs 
-                            </h3>
-                            <br>
-                            <br>
+                            <h3>Associate</h3>
+                            <h3>Director,</h3>
+                            <h4>Student & Young Alumni Programs 
+                            </h4>
                             <img src="img/advisor1.jpg" alt="Corey Ryan Earle '07" class="img-circle">
                         </li>
                         <li>
-                            <h2>Amanda<br>Massa</h2>
+                            <h2>Amanda</h2>
+                            <h2>&nbsp;Massa</h2>
                             <br>
-                            <h3>Assistant Director,
-                            <br>
-                            Student & Young Alumni Programs 
-                            </h3>
-                            <br>
-                            <br>
+                            <h3>Assistant</h3>
+                            <h3>Director,</h3>
+                             <h4>Student & Young Alumni Programs 
+                            </h4>
                             <img src="img/advisor2.jpg" alt="Amanda Massa" class="img-circle">
                         </li>  
                     </ul>
