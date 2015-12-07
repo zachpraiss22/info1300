@@ -343,8 +343,16 @@ ol.bjqs-markers li a:hover{
 }
 /*-----------------CODING FOR THE SLIDESHOW-------------------*/
 /*----------------------BY ZACH PRAISS------------------------*/
-
+#formparagraph{
+    margin-left: 30%;
+}
+#contact {
+    margin: 5px 5px 0px 0px;
+}
 #contact p {
+    padding-top: 20px;
+    display: block;
+    margin: 7px 0px 10px 0px;
     color: #E0E0E0;
     font-family: 'Libre Baskerville', Garamond, serif;
     font-weight: 400;
@@ -358,6 +366,49 @@ ol.bjqs-markers li a:hover{
     font-style: italic;
     font-size: 1.0em; 
 }
+#name {
+    width:100%;
+    max-width: 300px;
+}
+#email {
+    width:100%;
+    max-width: 300px;
+}
+#subject {
+    width:100%;
+    max-width: 300px;
+}
+#msg {
+    width:100%;
+    max-width: 300px;
+    height:200px;
+}
+#sendbutton{
+    padding-top: 10px;
+    margin-left: 90px;
+}
+#send{
+    text-decoration:none; 
+    text-align:center; 
+    padding:11px 32px; 
+    border:none; 
+    border-radius:50px;
+    font:1em Oswald, Helvetica, sans-serif;
+    font-weight:bold; 
+    color:#8c1616; 
+    background:#ffffff;  
+}
+
+#send:hover{
+    padding:11px 32px; 
+    border:none; 
+    border-radius: 50px; 
+    font:1em Oswald, Helvetica, sans-serif; 
+    font-weight:bold; 
+    color:#8c1616; 
+    background:#e0e0e0;   
+}
+
 
 /*----------------CODING FOR THE TEAM PAGE--------------------*/
 /*-----------------------BY DAMI OJO--------------------------*/

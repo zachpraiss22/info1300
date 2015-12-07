@@ -49,16 +49,22 @@
 	    <div id=contact>
 		<p>Any more questions or concerns? Shoot us an email!</p>
 		<br>
+		<div id="formparagraph">
 		<!-- If email has been sent, then $note is echoed-->
 		<div id="status" class="message" <?php if(!@$note){echo 'style="display:none;"';}?>><?php echo @$note;?></div>
-		<form method="post" onSubmit="return verify()" action='contact_form.php'>
-		    <p class="question">Name:</p><br>
+		<form method="post" onSubmit="return verify()" action='contact_form.php'id="contactform">
+		    <p class="question">Name:</p>
 		    <input type="text" name="name" id="name"><br>
-		    <p class="question">Subject:</p><br>
+		    <p class="question">Email:</p>
+		    <input type="text" name="email" id="email"><br>
+		    <p class="question">Subject:</p>
 		    <input type="text" name="subject" id="subject"><br>
-		    <p class="question">Message:</p><br>
+		    <p class="question">Message:</p>
 		    <textarea name="msg" id="msg" rows="5" cols="40"></textarea><br>
-		    <input type="submit" value="Send Email">
+		    <div id="sendbutton">
+			    <input type="submit" value="Send Email" id="send">
+			</div>
+		</div>
 		</form>
 		<br><br><br>
 	    </div>
