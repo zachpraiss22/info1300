@@ -25,6 +25,7 @@
 	    <?php
             include('php/button.php');
         ?>
+        <br>
 	    <!-- Calls on slideshow.php for images -->
 	    <?php
 	        include('php/slideshow.php');
