@@ -61,7 +61,7 @@ footer.php is called on by all the other pages.
                 <br>
                 Gallery Code from: <a href="http://basic-slider.com" target="blank_">basic-slider.com</a>
                 <br>
-                Logo courtesy of Cornell University 
+                Logos courtesy of Cornell University 
                 </p>
                 <br>
                 <img src="img/CULogo.png" alt="Cornell logo" id="large_logo">
