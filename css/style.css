@@ -19,13 +19,16 @@ body, ul, li {
 
 /*------------------CODING FOR THE HEADER---------------------*/
 /*-----------------------BY ZACH PRAISS-----------------------*/
-#current{
+
+#current {
     color: #8c1616;
 }
-#currentf{
+
+#currentf {
     color: #fff;
 }
-#currentf1{
+
+#currentf1 {
     color: #fff;
 }
 
@@ -56,7 +59,7 @@ header nav ul li a {
     text-transform: uppercase;
 }
 
-header nav ul li a:hover{
+header nav ul li a:hover {
     color: #8c1616;
 }
 
@@ -205,28 +208,32 @@ header nav ul li a:hover{
 }
 
 ul.bjqs-controls.v-centered li a{
-    display:block;
-    padding:10px;
-    background:#e5e5e5;
-    color:#363332;
+    display: block;
+    padding: 10px;
+    background: #e5e5e5;
+    color: #363332;
     text-decoration: none;
+    font-family: 'Libre Baskerville', Garamond, serif;
+    font-size: 16px;
 }
 
 ul.bjqs-controls.v-centered li a:hover{
-    background:#8c1616;
-    color:#e5e5e5;
+    background: #8c1616;
+    color: #e5e5e5;
 }
 
 ol.bjqs-markers li a{
-    padding:5px 10px;
-    background:#e5e5e5;
-    color:#363332;
-    margin:5px;
+    padding: 5px 10px;
+    background: #e5e5e5;
+    color: #363332;
+    margin: 5px;
     text-decoration: none;
+    font-family: 'Libre Baskerville', Garamond, serif;
+    font-size: 14px;
 }
 
 ol.bjqs-markers li.active-marker a,
-ol.bjqs-markers li a:hover{
+ol.bjqs-markers li a:hover {
     background: #8c1616;
 }
 
@@ -379,27 +386,33 @@ ol.bjqs-markers li a:hover{
     font-style: italic;
     font-size: 1.0em; 
 }
+
 #name {
     width:100%;
     max-width: 300px;
 }
+
 #email {
     width:100%;
     max-width: 300px;
 }
+
 #subject {
     width:100%;
     max-width: 300px;
 }
+
 #msg {
     width:100%;
     max-width: 300px;
     height:200px;
 }
+
 #sendbutton{
     padding-top: 10px;
     margin-left: 90px;
 }
+
 #send{
     text-decoration:none; 
     text-align:center; 
@@ -711,34 +724,207 @@ p.answer {
 }
 
 @media (max-width: 500px) {
-    
+
     header {
-        padding-right: 50px;
-        padding-left: 25px;
+        padding-right: 15px;
+        padding-left: 15px;
+        height: 70px;
     }
 
-     header nav ul {
-        padding-top: 24px;
+    header nav ul {
+        padding-top: 10px;
     }   
 
     header nav ul li {
-        font-size: 22px;
+        font-size: 15px;
+        line-height: 25px;
         padding-left: 25px;
     }
-    
+
+    #logo {
+        height: 50px;
+    }
+
     #banner {
-        background: white;
         height: 100px;
-        width: 100%;
-        margin: auto;
     }
 
     #banner img{
-        object-fit: cover;
-        object-position: 50% 50%;
         height: 100px;
+    }
+
+    #container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .content h1 {
+        line-height: 55px;
+        font-size: 67px;
+    }
+
+    .content h2 {
+        line-height: 42px;
+        font-size: 50px;
+    }
+
+    .content h3 {
+        font-size: 18px;
+    }
+
+    .content p {
+        font-size: 0.8em; 
+    }
+
+    .question {
+        font-size: 1.0em;   
+    }
+
+    .button{
+        font: 0.9em Oswald, Helvetica, sans-serif;
+    }
+
+    .button:hover{
+        font: 0.9em Oswald, Helvetica, sans-serif; 
+    }
+
+    #footer {
+        display: none;
+    }
+
+    #bottom {
+        height: 82px;
+    }
+
+    #bottom nav ul {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    #bottom nav ul li {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    #credits {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #credits p.email {
+        display: none;
+    }
+
+    #credits p.credits {
+        float: right;
+        text-align: right;
+        font-size: 7px;
+        line-height: 12px;
+    }
+
+    #credits img.media {
+        height: 32px;
+        width: 32px;
+        padding-right: 10px;
+        padding-top: 8px;
+        float: left;
+    }
+
+    #large_logo {
+        display: none;
+    }
+
+    .columntext {
+        padding: 0px;
+    }
+
+    .column {
         width: 100%;
-        overflow: hidden;
+        float:left;
+        border-top: solid white 1px;
+        border-left: none;
+    }
+
+    .columntext {
+        padding: 15px;
+    }
+
+    .column1 {
+        width: 100%;
+        float:left;
+    }
+
+    .column h1, .column1 h1 {
+        font-size: 20px;
+        color: #FFFFFF;
+    }
+
+    .column p, .column1 p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    p.question {
+        font-size: 13px;
+    }
+
+    p.answer {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .team h1 {
+        font-size: 24px;
+    }
+
+    .person {
+        padding-bottom: 26px;
+        width: 120px;
+    }
+
+    .person .biography h2 {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .person .biography h3 {
+        font-size: 9px;
+        line-height: 12px;
+    }
+
+    .img-circle {
+        height: 80px;
+        width: 80px; 
+    }
+
+    #contact p.question {
+        font-size: 0.8em; 
+    }
+
+    #send{
+        font: 0.8em Oswald, Helvetica, sans-serif;
+    }
+
+    #send:hover{
+        font: 0.8em Oswald, Helvetica, sans-serif;
+    }
+
+    #contact p {
+        font-size: 0.9em;
+    }
+
+    #banner-slide{
+        margin-bottom: 50px;
+        width: 100%;
+    }
+
+    ul.bjqs-controls.v-centered li a{
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    ol.bjqs-markers li a{
+        padding: 4px 8px;
+        font-size: 8px;
     }
 }
-
