@@ -481,7 +481,7 @@ ol.bjqs-markers li a:hover{
     width: 200px; 
 }
 
-/*----------------CODING FOR THE WHERE PAGE--------------------*/
+/*----------------CODING FOR THE COLUMNS-----------------------*/
 /*-------------------------------------------------------------*/
 
 .column {
@@ -536,3 +536,132 @@ p.answer {
     font-style: italic;
     line-height: 21px;
 }
+
+/*----------------MOBILE FRIENDLY CODING----------------------*/
+/*------------------------------------------------------------*/
+
+@media (max-width: 850px) {
+    header {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+    header nav ul {
+        padding-top: 64px;
+    }   
+
+    header nav ul li {
+        font-size: 22px;
+        padding-left: 25px;
+    }
+
+    #container{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .content h1 {
+        line-height: 87px;
+        font-size: 100px;
+    }
+
+    .content h2 {
+        line-height: 67px;
+        font-size: 80px;
+    }
+
+    .content h3 {
+        font-size: 24px;
+    }
+
+    .content p {
+        font-size: 1.0em; 
+    }
+
+    .question {
+        font-size: 1.6em;   
+    }
+
+    .button{
+        font: 1.1em Oswald, Helvetica, sans-serif;
+    }
+
+    .button:hover{
+        font: 1.1em Oswald, Helvetica, sans-serif; 
+    }
+
+    #footer {
+        border-width: 20px 0px 0px 0px;
+        height: 24px;
+    }
+
+    #footer nav ul {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    #footer nav ul li {
+        display: inline-block;
+        padding-left: 19px;
+        padding-right: 19px;
+    }
+
+    #bottom {
+        height: 94px;
+    }
+
+    #bottom nav ul {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    #bottom nav ul li {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    #credits {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    #credits p.email {
+        display: none;
+    }
+
+    #credits p.credits {
+        float: right;
+        text-align: right;
+        font-size: 7px;
+        line-height: 13px;
+    }
+
+    #credits img.media {
+        height: 36px;
+        width: 36px;
+        padding-right: 10px;
+        padding-top: 8px;
+        float: left;
+    }
+
+    #large_logo {
+    height: 36px;
+    display: block;
+    float: center;
+    padding-left: 40px;
+    }
+
+    .column h1, .column1 h1 {
+        font-size: 20px;
+    }
+
+    .column p, .column1 p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+@media (max-width: 500px) {
+}
+
+
+
