@@ -196,7 +196,14 @@ header nav ul li a:hover{
     margin: 0;
     width: 100%;
 }
-    
+
+#container .container #banner-slide { 
+    text-align: center;
+    position: relative; 
+    margin: 0;
+    width: 100%;
+}
+
 ul.bjqs-controls.v-centered li a{
     display:block;
     padding:10px;
@@ -345,7 +352,7 @@ ol.bjqs-markers li a:hover{
 }
 
 /*-----------------CODING FOR THE CONTACT FORM-------------------*/
-/*----------------------BY ZACH PRAISS------------------------*/
+/*-------------------------BY ZACH PRAISS------------------------*/
 
 #formparagraph{
     margin-left: 30%;
@@ -394,13 +401,13 @@ ol.bjqs-markers li a:hover{
 #send{
     text-decoration:none; 
     text-align:center; 
-    padding:11px 32px; 
+    padding: 11px 32px; 
     border:none; 
     border-radius:50px;
-    font:1em Oswald, Helvetica, sans-serif;
+    font: 1em Oswald, Helvetica, sans-serif;
     font-weight:bold; 
-    color:#8c1616; 
-    background:#ffffff;  
+    color: #8c1616; 
+    background: #ffffff;  
 }
 
 #send:hover{
@@ -413,74 +420,56 @@ ol.bjqs-markers li a:hover{
     background:#e0e0e0;   
 }
 
-
 /*----------------CODING FOR THE TEAM PAGE--------------------*/
 /*-----------------------BY DAMI OJO--------------------------*/
 
-#team h1 {
-    color: #e5e5e5;
+.team {
+    display: block;
+    text-align: center;
+    margin-right: 0 auto;
+    margin-left: 0 auto;
+}
+
+.team h1 {
+    text-align: center;
+    color: #FFFFFF;
     font-size: 40px;
 }
-#team {
-    text-align: center;
+
+.person {
+    display: inline-block;
+    padding-bottom: 40px;
+    width: 200px;
 }
 
-#container .container #banner-slide { 
-	text-align: center;
-	position: relative; 
-	margin: 0;
-	width: 100%;
-}
-	
-#container .container #team ul {
-	width: 100%;
-	margin:10px;
-	float:none;
-}
-	
-#container .content #team ul li {
-	display: inline-block;
-	width: 15%;
-	padding: 40px;
-	float:none;
-	list-style: none;
+.person .biography {
+    display: block;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
 }
 
-#container .content #team ul li h2{ 
-	font-size: 20px;
-	line-height: 30px;
-	font-family: "futura-pt", sans-serif;
-	color: #e5e5e5;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-    margin-left: 45px;
+.person .biography h2 {
+    font-size: 16px;
+    line-height: 20px;
+    font-family: font-family: Oswald, Helvetica, sans-serif;
+    color: #e5e5e5;
+    text-transform: uppercase;
 }
 
-#container .content #team ul li h3{ 
-	font-size: 20px;
-	line-height: 20px;
-	font-family: "garamond-premier-pro", serif;
-	color: #363332;
-	text-transform: none;
-	font-style: italic;
-    margin-left: 50px; 
-}
-
-#container .content #team ul li h4{ 
-	font-size: 17px;
-	line-height: 15px;
-	font-family: "garamond-premier-pro", serif;
-	color: #363332;
-	text-transform: none;
-	font-style: italic;
-    margin-left: 40px; 
+.person .biography h3 {
+    font-size: 10px;
+    line-height: 15px;
+    font-family: 'Libre Baskerville', Garamond, serif;
+    margin-bottom: 50px;
+    color: #363332;
+    padding: 45px;
 }
 
 .img-circle {
-    border-radius: 0%;
+    border-radius: 100%;
     overflow: hidden;
-    height: 220px;
-    width: 200px; 
+    height: 150px;
+    width: 150px; 
 }
 
 /*----------------CODING FOR THE COLUMNS-----------------------*/
@@ -551,7 +540,7 @@ p.answer {
     }
 
     header nav ul {
-        padding-top: 56px;
+        padding-top: 57px;
     }   
 
     header nav ul li {
