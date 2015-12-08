@@ -647,7 +647,6 @@ p.answer {
     #large_logo {
     height: 36px;
     display: block;
-    float: center;
     padding-left: 40px;
     }
 
@@ -659,8 +658,6 @@ p.answer {
         font-size: 12px;
         line-height: 16px;
     }
-
-@media (max-width: 500px) {
 }
 
 
