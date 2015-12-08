@@ -666,7 +666,9 @@ p.answer {
         display: block;
         padding-left: 40px;
     }
-
+    .columntext {
+        padding: 15px;
+    }
     .column h1, .column1 h1 {
         font-size: 20px;
     }
