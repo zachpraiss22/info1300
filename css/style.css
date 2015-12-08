@@ -357,9 +357,11 @@ ol.bjqs-markers li a:hover{
 #formparagraph{
     margin-left: 30%;
 }
+
 #contact {
     margin: 5px 5px 0px 0px;
 }
+
 #contact p {
     padding-top: 20px;
     display: block;
@@ -426,8 +428,8 @@ ol.bjqs-markers li a:hover{
 .team {
     display: block;
     text-align: center;
-    margin-right: 0 auto;
-    margin-left: 0 auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .team h1 {
@@ -444,14 +446,14 @@ ol.bjqs-markers li a:hover{
 
 .person .biography {
     display: block;
-    margin-left: 0 auto;
-    margin-right: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .person .biography h2 {
     font-size: 16px;
     line-height: 20px;
-    font-family: font-family: Oswald, Helvetica, sans-serif;
+    font-family: Oswald, Helvetica, sans-serif;
     color: #e5e5e5;
     text-transform: uppercase;
 }
@@ -460,9 +462,7 @@ ol.bjqs-markers li a:hover{
     font-size: 10px;
     line-height: 15px;
     font-family: 'Libre Baskerville', Garamond, serif;
-    margin-bottom: 50px;
     color: #363332;
-    padding: 45px;
 }
 
 .img-circle {
@@ -560,7 +560,7 @@ p.answer {
 
     #banner img{
         object-fit: cover;
-        object-position: relative;
+        object-position: 50% 50%;
         height: 140px;
         width: 100%;
         overflow: hidden;
@@ -572,8 +572,8 @@ p.answer {
     }
 
     .content h1 {
-        line-height: 87px;
-        font-size: 100px;
+        line-height: 85px;
+        font-size: 101px;
     }
 
     .content h2 {
@@ -680,6 +680,34 @@ p.answer {
         font-size: 13px;
         line-height: 18px;
     }
+
+    .team h1 {
+        font-size: 30px;
+    }
+
+    .person {
+        padding-bottom: 30px;
+        width: 143px;
+    }
+
+    .person .biography h2 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .person .biography h3 {
+        font-size: 10px;
+        line-height: 13px;
+    }
+
+    .img-circle {
+        height: 100px;
+        width: 100px; 
+    }
+
+    #formparagraph {
+        margin-left: 0%;
+    }
 }
 
 @media (max-width: 500px) {
@@ -707,9 +735,10 @@ p.answer {
 
     #banner img{
         object-fit: cover;
-        object-position: relative;
+        object-position: 50% 50%;
         height: 100px;
         width: 100%;
         overflow: hidden;
     }
+}
 
