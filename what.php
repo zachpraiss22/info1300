@@ -28,7 +28,7 @@
             <div class="column1">
                 <div class="columntext">
                     <h1>OUR TARGET</h1>
-                    <p class="italics">The Senior Class Campaign will be nothing without the participation of our seniors. We are aiming to have at least a 50% participation from the senior class. Let's come together and show Cornell that we are the best class that has ever stepped foot on this campus.</p>
+                    <p class="italics">The Senior Class Campaign will be nothing without the participation of our seniors. We are aiming to have at least a 50% participation from the senior class. Let's show Cornell that we are the best class ever.</p>
                 </div>
             </div>
             <div class="column">
@@ -40,10 +40,11 @@
             <div class="column">
                 <div class="columntext">
                     <h1>WHERE YOU COME IN</h1>
-                    <p class="italics"> It's never to late to donate. Spread the word about the Senior Class Campaign. Get your friends involved and see the impact that you can make on Cornell.</p>
+                    <p class="italics"> It's never to late to donate or to help out with the campaign. Spread the word about the Senior Class Campaign. Get your friends involved and see the tremendous impact that you can make here at Cornell.</p>
                 </div>
             </div>
             <br style="clear:both"><br>
+            <br><br>
         </div>
     
     <?php
