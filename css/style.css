@@ -188,6 +188,7 @@ header nav ul li a:hover{
     margin-right: auto;
     position: relative;
 }
+
 #container .container #container{
     text-align: center;
     position: relative; 
@@ -541,6 +542,7 @@ p.answer {
 /*------------------------------------------------------------*/
 
 @media (max-width: 850px) {
+
     header {
         padding-right: 25px;
         padding-left: 25px;
@@ -553,6 +555,21 @@ p.answer {
     header nav ul li {
         font-size: 22px;
         padding-left: 25px;
+    }
+
+    #banner {
+        background: white;
+        height: 140px;
+        width: 100%;
+        margin: auto;
+    }
+
+    #banner img{
+        object-fit: cover;
+        object-position: relative;
+        height: 140px;
+        width: 100%;
+        overflow: hidden;
     }
 
     #container{
@@ -645,9 +662,9 @@ p.answer {
     }
 
     #large_logo {
-    height: 36px;
-    display: block;
-    padding-left: 40px;
+        height: 36px;
+        display: block;
+        padding-left: 40px;
     }
 
     .column h1, .column1 h1 {
@@ -658,7 +675,45 @@ p.answer {
         font-size: 12px;
         line-height: 16px;
     }
+
+    p.question {
+        font-size: 17px;
+    }
+
+    p.answer {
+        font-size: 13px;
+        line-height: 18px;
+    }
 }
 
+@media (max-width: 500px) {
+    
+    header {
+        padding-right: 50px;
+        padding-left: 25px;
+    }
 
+     header nav ul {
+        padding-top: 24px;
+    }   
+
+    header nav ul li {
+        font-size: 22px;
+        padding-left: 25px;
+    }
+    
+    #banner {
+        background: white;
+        height: 100px;
+        width: 100%;
+        margin: auto;
+    }
+
+    #banner img{
+        object-fit: cover;
+        object-position: relative;
+        height: 100px;
+        width: 100%;
+        overflow: hidden;
+    }
 
