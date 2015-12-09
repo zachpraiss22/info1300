@@ -52,7 +52,7 @@
 		<div id="formparagraph">
 		<!-- If email has been sent, then $note is echoed-->
 		<div id="status" class="message" <?php if(!@$note){echo 'style="display:none;"';}?>><?php echo @$note;?></div>
-		<form method="post" onSubmit="return verify()" action='contact_form.php'id="contactform">
+		<form method="post" onSubmit="return verify()" action='contact_form.php' id="contactform">
 		    <p class="question">Name:</p>
 		    <input type="text" name="name" id="name"><br>
 		    <p class="question">Email:</p>
@@ -64,8 +64,8 @@
 		    <div id="sendbutton">
 			    <input type="submit" value="Send Email" id="send">
 			</div>
+            </form>
 		</div>
-		</form>
 		<br><br><br>
 	    </div>
         </div>
