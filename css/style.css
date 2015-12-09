@@ -24,14 +24,6 @@ body, ul, li {
     color: #8c1616;
 }
 
-#currentf {
-    color: #fff;
-}
-
-#currentf1 {
-    color: #fff;
-}
-
 header {
     max-width: 850px;
     margin: auto;
@@ -239,6 +231,14 @@ ol.bjqs-markers li a:hover {
 
 /*------------------CODING FOR THE FOOTER---------------------*/
 /*----------------------BY ZACH PRAISS------------------------*/
+
+#footer #currentf {
+    color: #fff;
+}
+
+#bottom #currentf1 {
+    color: #fff;
+}
 
 #footer {
     border: solid white;

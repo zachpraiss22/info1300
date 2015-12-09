@@ -7,7 +7,7 @@
 	<?php
 	//NAVIGATION: calls on navigation.php
 	//Calls on banner.php
-	    $current = "FAQS";
+	    $current = "OTHER FAQs";
 	    include('php/navigation.php');
 	    include('php/banner.php');
 	?>

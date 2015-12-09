@@ -35,7 +35,7 @@
 	<?php
 	//NAVIGATION: calls on navigation.php
 	//Calls on banner.php
-	    $current = "CONTACT";
+	    $current = "CONTACT US";
 	    include('php/navigation.php');
 	    include('php/banner.php');
 	?>
